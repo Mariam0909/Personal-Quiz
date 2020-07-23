@@ -7,8 +7,6 @@ var resultScore= 0;
 
 var q1a1= document.getElemetId("q1a1")
 
-q1a1.addEvenrListener("click,result1");
-
-function result (){
+q1a1.addEventListener("click,blue" function result (){
 }
-element.addEventListener(event, function);
+element.addEventListener("click,blue", function);
