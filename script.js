@@ -3,9 +3,10 @@
 
 // prints "hi" in the browser's dev tools console
 var questionCount= 0;
-var result1Score= 0;
-var result3Score=0;
-var result4Score=0;
+var Blue= 0;
+var Lavender=0;
+var Black=0;
+var Green=0;
 
 var q1a1= document.getElemetId("q1a1");
 var q1a2= document.getElemetId("q1a2")
@@ -24,8 +25,36 @@ var q4a2= document.getElemetId("q4a2");
 var q4a3= document.getElemetId("q4a3");
 var q4a4= document.getElemetId("q4a4");
 
+    q1a1.addEventListener("click", Blue);
+    q1a2.addEventListener("click", Lavender);
+    q1a3.addEventListener("click", Black);
+    q1a4.addEventListener("click", Green);
+    q2a1.addEventListener("click", Blue);
+    q2a2.addEventListener("click", Lavender);
+    q2a3.addEventListener("click", Black);
+    q2a4.addEventListener("click", Green);
+    q3a1.addEventListener("click", Blue);
+    q3a2.addEventListener("click", Lavender);
+    q3a3.addEventListener("click", Black);
+    q3a4.addEventListener("click", Green);
 
-
-q1a1.addEventListener("click,blue" function result (){
+function Blue(){   
+  Blue+=1;
+  questionCount+=1;
+if (questionCount>=3) {
+  updateResult();
 }
-element.addEventListener("click,blue", function);
+
+function Lavender(){   
+  Lavender+=1;
+  questionCount+=1;
+}
+  
+function Green(){   
+  Green+=1;
+  questionCount+=1;
+}
+function Black(){   
+  Black+=1;
+  questionCount+=1;
+}
