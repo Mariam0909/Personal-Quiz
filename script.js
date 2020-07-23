@@ -58,3 +58,45 @@ function Black(){
   Black+=1;
   questionCount+=1;
 }
+
+var result = document.getElementById("result");
+function updateResult(){
+
+}
+  
+function updateResult(){
+ if (Blue >= 2){
+
+ }
+ else if(Lavender >=2){
+
+ }
+ else if(Black >=2){
+
+ }
+ else if (Green >= 2){
+
+ }
+ else{
+
+ }
+}
+  
+function updateResult(){
+ if (Blue >= 2){
+         result.innerHTML = "Blue!";
+ }
+ else if(slytherinScore >=2){
+        result.innerHTML = "Lavender!";
+ }
+ else if(ravenclawScore >=2){
+    result.innerHTML = "Black!";
+ }
+ else if (hufflepuffScore>= 2){
+    result.innerHTML = "Green!";
+ }
+ else{
+    result.innerHTML = "You love all colors!";
+ }
+}
+
