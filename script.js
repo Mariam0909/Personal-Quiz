@@ -29,20 +29,20 @@ var q3a4= document.getElemetId("q3a4");
 
 //#TODO: Add Event Listeners to multiple choice variables.
 
-q1a1.addEventListener("click", Blue);
-q1a2.addEventListener("click", Lavender);
-q1a3.addEventListener("click", Black);
-q1a4.addEventListener("click", Green);
+q1a1.addEventListener("click", blue);
+q1a2.addEventListener("Click", lavender);
+q1a3.addEventListener("click", black);
+q1a4.addEventListener("click", green);
 
-q2a1.addEventListener("click", Blue);
-q2a2.addEventListener("click", Lavender);
-q2a3.addEventListener("click", Black);
-q2a4.addEventListener("click", Green);
+q2a1.addEventListener("click", blue);
+q2a2.addEventListener("click", lavender);
+q2a3.addEventListener("click", black);
+q2a4.addEventListener("click", green);
 
-q3a1.addEventListener("click", Blue);
-q3a2.addEventListener("click", Lavender);
-q3a3.addEventListener("click", Black);
-q3a4.addEventListener("click", Green);
+q3a1.addEventListener("click", blue);
+q3a2.addEventListener("click", lavender);
+q3a3.addEventListener("click", black);
+q3a4.addEventListener("click", green);
 
 //#TODO: Add functions
 function updateResult(){
@@ -51,7 +51,7 @@ function updateResult(){
   }
   else if (lavenderScore>=2){
     result.innerHTML = "Lavender!"
-           }
+  }
   else if (greenScore>=2){
     result.innerHTML = "Green!"
   }
@@ -63,7 +63,7 @@ function updateResult(){
   }
 }
     
-function Blue(){   
+function blue(){   
   blueScore+=1;
   questionCount+=1;
   
@@ -72,7 +72,7 @@ if (questionCount>=3) {
   }
 }
 
-function Lavender(){   
+function lavender(){   
   lavenderScore+=1;
   questionCount+=1;
   
@@ -81,32 +81,19 @@ function Lavender(){
   }
 }
   
-function Green(){   
+function green(){   
   greenScore+=1;
   questionCount+=1;
-}
-function Black(){   
-  Black+=1;
-  questionCount+=1;
-}
-
- 
-}
   
-function updateResult(){
- if (Blue >= 2){
-         result.innerHTML = "Blue!";
- }
- else if(LavenderScore >=2){
-        result.innerHTML = "Lavender!";
- }
- else if(BlackScore >=2){
-    result.innerHTML = "Black!";
- }
- else if (GreenScore>= 2){
-    result.innerHTML = "Green!";
- }
- else{
-    result.innerHTML = "You love all colors!";
- }
+  if (questionCount>=3){
+    updateResult();
+  }
+}
+function black(){   
+  blackScore+=1;
+  questionCount+=1;
+  
+  if (questionCount>=3){
+    
+  }
 }
