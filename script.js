@@ -9,5 +9,6 @@ var q1a1= document.getElemetId("q1a1")
 
 q1a1.addEvenrListener("click,result1");
 
-function result 1 (){
+function result (){
 }
+element.addEventListener(event, function);
