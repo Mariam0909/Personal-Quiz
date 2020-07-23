@@ -3,11 +3,14 @@
 
 // prints "hi" in the browser's dev tools console
 var questionCount= 0;
-var BlueScore = 0;
-var LavenderScore = 0;
-var BlackScore = 0;
-var GreenScore = 0;
+var blueScore = 0;
+var lavenderScore = 0;
+var blackScore = 0;
+var greenScore = 0;
 
+var result = document.getElementById("result");
+function updateResult(){
+  
 var q1a1= document.getElemetId("q1a1");
 var q1a2= document.getElemetId("q1a2")
 var q1a3= document.getElemetId("q1a3");
@@ -36,6 +39,7 @@ var q3a4= document.getElemetId("q3a4");
     q3a3.addEventListener("click", Black);
     q3a4.addEventListener("click", Green);
 
+function updateResult(){
 function Blue(){   
   Blue+=1;
   questionCount+=1;
@@ -57,12 +61,7 @@ function Black(){
   questionCount+=1;
 }
 
-var result = document.getElementById("result");
-function updateResult(){
-
-}
   
-function updateResult(){
  if (Blue >= 2){
 
  }
@@ -84,17 +83,16 @@ function updateResult(){
  if (Blue >= 2){
          result.innerHTML = "Blue!";
  }
- else if(slytherinScore >=2){
+ else if(LavenderScore >=2){
         result.innerHTML = "Lavender!";
  }
- else if(ravenclawScore >=2){
+ else if(BlackScore >=2){
     result.innerHTML = "Black!";
  }
- else if (hufflepuffScore>= 2){
+ else if (GreenScore>= 2){
     result.innerHTML = "Green!";
  }
  else{
     result.innerHTML = "You love all colors!";
  }
 }
-
