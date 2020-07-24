@@ -10,22 +10,22 @@ var greenScore = 0;
 var result = document.getElementById("result");
   
 //#TODO: Use DOM to create variables.
-var q1a1= document.getElemetId("q1a1");
-var q1a2= document.getElemetId("q1a2")
-var q1a3= document.getElemetId("q1a3");
-var q1a4= document.getElemetId("q1a4");
+var q1a1= document.getElementById("q1a1");
+var q1a2= document.getElementById("q1a2")
+var q1a3= document.getElementById("q1a3");
+var q1a4= document.getElementById("q1a4");
 
 //#TODO: Use DOM to create variables.
-var q2a1= document.getElemetId("q2a1");
-var q2a2= document.getElemetId("q2a2");
-var q2a3= document.getElemetId("q2a3");
-var q2a4= document.getElemetId("q2a4");
+var q2a1= document.getElementById("q2a1");
+var q2a2= document.getElemetById("q2a2");
+var q2a3= document.getElementById("q2a3");
+var q2a4= document.getElementById("q2a4");
 
 //#TODO: Use DOM to create variables.
-var q3a1= document.getElemetId("q3a1");
-var q3a2= document.getElemetId("q3a2");
-var q3a3= document.getElemetId("q3a3");
-var q3a4= document.getElemetId("q3a4");
+var q3a1= document.getElementById("q3a1");
+var q3a2= document.getElementById("q3a2");
+var q3a3= document.getElementById("q3a3");
+var q3a4= document.getElementById("q3a4");
 
 //#TODO: Add Event Listeners to multiple choice variables.
 
